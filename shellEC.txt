@@ -1,0 +1,18 @@
+mkdir output
+mv shellEC.txt output
+cd output
+cat shellEC.txt > copy.txt
+pwd > pwd.txt
+ls > ls.txt
+cp shellEC.txt copy.txt
+alias printDate='date'
+printDate > date.txt
+wc -w shellEC.txt > textcount.txt
+ps | head -n 5 > process.txt
+ifconfig | head -n 5 > netstat.txt
+mount | head -n 5 > mount.txt
+touch permission.txt
+chmod 777 permission.txt
+TESTENV1="test"
+grep -E '^[a-zA-z]{3,}$' > regex.txt
+cd ..
