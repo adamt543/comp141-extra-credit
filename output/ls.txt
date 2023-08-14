@@ -1,0 +1,4 @@
+copy.txt
+ls.txt
+pwd.txt
+shellEC.txt

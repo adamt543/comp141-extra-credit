@@ -1,0 +1,4 @@
+  PID TTY           TIME CMD
+63299 ttys000    0:00.28 -zsh
+67672 ttys000    0:00.01 sh ./shellEC.txt
+67681 ttys000    0:00.00 head -n 5
